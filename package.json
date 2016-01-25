@@ -1,0 +1,33 @@
+{
+    "name": "rev-append",
+    "version": "0.0.1",
+    "description": "gulp-rev-append via command line",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/rmartone/rev-append"
+    },
+    "main": "./index.js",
+    "bin": {
+        "rev-append": "./bin/rev-append"
+    },
+    "engines": {
+        "node": ">=4.0.0"
+    },
+    "scripts": {
+        "test": "node ./index.js test/ test/test.html"
+    },
+    "keywords": [
+        "command line",
+        "shell script",
+        "cache-busting",
+        "cache",
+        "revision"
+    ],
+    "author": "Ray Martone",
+    "license": "MIT",
+    "dependencies": {
+        "vinyl-fs": "*",
+        "event-stream": "*"
+    }
+}
